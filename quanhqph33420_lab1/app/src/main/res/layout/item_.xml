@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/id_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/user_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_"
+        android:layout_margin="10sp"
+        android:text="user" />
+
+    <TextView
+        android:id="@+id/pass_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_"
+        android:layout_margin="10sp"
+        android:text="pass" />
+
+    <Button
+        android:id="@+id/del_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="5sp"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/up_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/del_"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10sp"
+        android:text="update" />
+
+</RelativeLayout>
