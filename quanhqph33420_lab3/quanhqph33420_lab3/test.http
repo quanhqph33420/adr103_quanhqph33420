@@ -1,0 +1,28 @@
+
+# POST http://localhost:8000/product/addProduct HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "name":"123e33",
+#   "type":"888e8"
+# }
+
+# GET http://localhost:8000/product/getProduct HTTP/1.1
+
+
+# POST http://localhost:8000/product/deleteProduct HTTP/1.1
+# Content-Type: application/json
+
+# {
+#  "id":"65f460b2a9fe2892ee8189fc"
+# }
+
+POST http://localhost:8000/product/updateProduct HTTP/1.1
+Content-Type: application/json
+
+{
+  "id":"65f4628b4410d74b30ae0f6d",
+  "name":"12333",
+  "type":"8888"
+}
+
