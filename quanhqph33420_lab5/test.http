@@ -1,0 +1,9 @@
+POST http://localhost:8000/send/sendRequest HTTP/1.1
+Content-Type: application/json
+
+{
+    "tai_khoan":"1eee",
+    "so_tien":"8000",
+    "thong_tin1":"14444",
+    "thong_tin2":"66jfffj"
+}
