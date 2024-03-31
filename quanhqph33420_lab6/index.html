@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delete Data Form</title>
+  </head>
+  <body>
+    <h4>Insert</h4>
+    <form action="insertdata.php" method="post">
+      Username: <input type="text" name="username" /><br />
+      Email: <input type="email" name="email" /><br />
+      <input type="submit" value="Insert Data" />
+    </form>
+    <h4>Update</h4>
+    <form action="editdata.php" method="post">
+      ID: <input type="text" name="id" /><br />
+      New Username: <input type="text" name="new_username" /><br />
+      New Email: <input type="email" name="new_email" /><br />
+      <input type="submit" value="Edit Data" />
+    </form>
+    <h4>Delete</h4>
+    <form action="deletedata.php" method="post">
+      ID to delete: <input type="text" name="id" /><br />
+      <input type="submit" value="Delete Data" />
+    </form>
+    <h4>Get data</h4>
+    <button onclick="getdata()">Get</button>
+  </body>
+  <script>
+    async function getdata() {
+      try {
+        const res = await fetch("http://localhost/getdata.php");
+        let data = await res.json();
+        console.log(data);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  </script>
+</html>
