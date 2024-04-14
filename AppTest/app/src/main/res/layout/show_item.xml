@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/masach_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="111111111111111" />
+
+    <TextView
+        android:id="@+id/tieude_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="111111111111111" />
+
+    <TextView
+        android:id="@+id/tacgia_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="111111111111111" />
+
+
+    <TextView
+        android:id="@+id/namxuatban_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="111111111111111" />
+
+    <TextView
+        android:id="@+id/sotrang_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="111111111111111" />
+
+    <TextView
+        android:id="@+id/theloai_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="111111111111111" />
+
+    <Button
+        android:id="@+id/thoat_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:text="Thoat" />
+</LinearLayout>
